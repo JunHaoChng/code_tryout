@@ -1,0 +1,7 @@
+{
+    "colcon.provideTasks": true,
+    "colcon.globalSetup": ["/opt/ros/foxy/setup.sh"],
+    "colcon.workspaceSetup":[
+        "install/setup.sh"
+    ],
+}

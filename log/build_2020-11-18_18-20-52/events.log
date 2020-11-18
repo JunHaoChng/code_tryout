@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.000645] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000793] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.009705] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.009922] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/chart/Dev/dev_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/chart/Dev/dev_ws/src/cpp_pubsub/install/cpp_pubsub'], 'cwd': '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_SG:en'), ('USER', 'chart'), ('SSH_AGENT_PID', '1928'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/chart'), ('CYCLONEDDS_URI', 'file:///home/chart/cyclonedds.xml'), ('OLDPWD', '/home/chart/Dev/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1711'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'chart'), ('JOURNAL_STREAM', '9:52303'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'chart'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/chart/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/chart-P95-96-97Ex-Rx:@/tmp/.ICE-unix/1963,unix/chart-P95-96-97Ex-Rx:/tmp/.ICE-unix/1963'), ('INVOCATION_ID', '78e519eca80343a481d905c6ab871394'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a30576d7_8822_4a41_8a22_0882b4d00a0a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.153'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://magni45.local:11311'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('EDITOR', 'vim'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.054744] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 8.4.0\n'}
+[0.095473] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 8.4.0\n'}
+[0.099687] (-) TimerEvent: {}
+[0.099979] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.150674] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.151353] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199813] (-) TimerEvent: {}
+[0.201388] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.210849] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.211150] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.213051] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.271179] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.272032] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299929] (-) TimerEvent: {}
+[0.331249] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.341164] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.341576] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.343133] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.360882] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.361010] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.400007] (-) TimerEvent: {}
+[0.500241] (-) TimerEvent: {}
+[0.512239] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.536776] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.541567] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600151] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.600291] (-) TimerEvent: {}
+[0.621718] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.684108] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700393] (-) TimerEvent: {}
+[0.727058] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.728558] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.729357] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.783674] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.784015] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.800517] (-) TimerEvent: {}
+[0.836715] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.836987] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.882457] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.882698] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.900645] (-) TimerEvent: {}
+[0.950490] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.952302] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000762] (-) TimerEvent: {}
+[1.087531] (cpp_pubsub) StderrLine: {'line': b'CMake Error at CMakeLists.txt:22 (find_package):\n'}
+[1.087689] (cpp_pubsub) StderrLine: {'line': b'  By not providing "Findtutorial_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.087751] (cpp_pubsub) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.087826] (cpp_pubsub) StderrLine: {'line': b'  "tutorial_interfaces", but CMake did not find one.\n'}
+[1.087881] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.087932] (cpp_pubsub) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.087982] (cpp_pubsub) StderrLine: {'line': b'  "tutorial_interfaces" with any of the following names:\n'}
+[1.088033] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.088082] (cpp_pubsub) StderrLine: {'line': b'    tutorial_interfacesConfig.cmake\n'}
+[1.088133] (cpp_pubsub) StderrLine: {'line': b'    tutorial_interfaces-config.cmake\n'}
+[1.088182] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.088231] (cpp_pubsub) StderrLine: {'line': b'  Add the installation prefix of "tutorial_interfaces" to CMAKE_PREFIX_PATH\n'}
+[1.088281] (cpp_pubsub) StderrLine: {'line': b'  or set "tutorial_interfaces_DIR" to a directory containing one of the above\n'}
+[1.088332] (cpp_pubsub) StderrLine: {'line': b'  files.  If "tutorial_interfaces" provides a separate development package or\n'}
+[1.088382] (cpp_pubsub) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.088432] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.088481] (cpp_pubsub) StderrLine: {'line': b'\n'}
+[1.088632] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.088717] (cpp_pubsub) StdoutLine: {'line': b'See also "/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeOutput.log".\n'}
+[1.088776] (cpp_pubsub) StdoutLine: {'line': b'See also "/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub/CMakeFiles/CMakeError.log".\n'}
+[1.093818] (cpp_pubsub) CommandEnded: {'returncode': 1}
+[1.100896] (-) TimerEvent: {}
+[1.110521] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 1}
+[1.120982] (-) EventReactorShutdown: {}

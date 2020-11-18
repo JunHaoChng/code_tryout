@@ -1,0 +1,2 @@
+Invoking command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub': /usr/bin/cmake /home/chart/Dev/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/chart/Dev/dev_ws/src/cpp_pubsub/install/cpp_pubsub
+Invoked command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub' returned '1': /usr/bin/cmake /home/chart/Dev/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/chart/Dev/dev_ws/src/cpp_pubsub/install/cpp_pubsub

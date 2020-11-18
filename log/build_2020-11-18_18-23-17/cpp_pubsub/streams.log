@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chart/Dev/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/chart/Dev/dev_ws/src/cpp_pubsub/install/cpp_pubsub
+[0.023s] -- Found ament_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.179s] -- Found rclcpp: 2.2.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.197s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Found rosidl_adapter: 1.1.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.300s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.340s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.341s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.505s] -- Configuring done
+[0.513s] -- Generating done
+[0.514s] -- Build files have been written to: /home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub
+[0.520s] Invoked command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/chart/Dev/dev_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/chart/Dev/dev_ws/src/cpp_pubsub/install/cpp_pubsub
+[0.522s] Invoking command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
+[0.551s] [35m[1mScanning dependencies of target listener[0m
+[0.551s] [35m[1mScanning dependencies of target talker[0m
+[0.579s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.580s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.651s] [01m[K/home/chart/Dev/dev_ws/src/cpp_pubsub/src/subscriber_member_function.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/num.hpp: No such file or directory
+[0.651s]  #include [01;31m[K"tutorial_interfaces/msg/num.hpp"[m[K     // CHANGE
+[0.651s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.651s] compilation terminated.
+[0.652s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[0.652s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/listener.dir/all] Error 2
+[0.652s] make[1]: *** Waiting for unfinished jobs....
+[0.662s] [01m[K/home/chart/Dev/dev_ws/src/cpp_pubsub/src/publisher_member_function.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Ktutorial_interfaces/msg/num.hpp: No such file or directory
+[0.662s]  #include [01;31m[K"tutorial_interfaces/msg/num.hpp"[m[K     // CHANGE
+[0.662s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.662s] compilation terminated.
+[0.663s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.663s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/talker.dir/all] Error 2
+[0.663s] make: *** [Makefile:141: all] Error 2
+[0.665s] Invoked command in '/home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/chart/Dev/dev_ws/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
